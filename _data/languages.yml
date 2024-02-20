@@ -6,3 +6,11 @@ fr:
   icon:  # optional
   storiesLocale: fr
   widgetLocale: fr
+de: 
+  label: Deutsch
+  storiesLocale: de
+  widgetLocale: de
+it:
+  label: Italiano
+  storiesLocale: it
+  widgetLocale: it

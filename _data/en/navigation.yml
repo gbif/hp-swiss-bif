@@ -1,0 +1,10 @@
+- text: About
+  href: /en/about
+- text: Explore
+  menu:
+    - text: Occurrences
+      href: /en/occurrence/search
+    - text: Literature
+      href: /en/literature/search
+- text: News
+  href: /en/news

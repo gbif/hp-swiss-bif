@@ -1,0 +1,10 @@
+- text: À propos
+  href: /fr/about
+- text: Explorer
+  menu:
+    - text: Événements
+      href: /fr/occurrence/search
+    - text: Littérature
+      href: /fr/literature/search
+- text: Actualités
+  href: /fr/news

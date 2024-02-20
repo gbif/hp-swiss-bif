@@ -1,7 +1,7 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
-const countryCode = 'FR';
+const countryCode = 'CH';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -12,9 +12,9 @@ if (primaryColor) {
 
 var siteConfig = {
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'],
+  availableCatalogues: ['OCCURRENCE', 'LITERATURE'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey', 'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
@@ -60,28 +60,6 @@ var siteConfig = {
     rootFilter: {country: countryCode},
     excludedFilters: ['countrySingle', 'networkKey'],
   },
-  collection: {
-    excludedFilters: ['countryGrSciColl'],
-    rootFilter: {
-      displayOnNHCPortal: true,
-      country: countryCode,
-	  active: true
-    }
-  },
-  institution: {
-    excludedFilters: ['countryGrSciColl'],
-    rootFilter: {
-      displayOnNHCPortal: true,
-      country: countryCode,
-      active: true
-    },
-    mapSettings: {
-      enabled: true,
-      lat: 45.81,
-      lng: 2.66,
-      zoom: 5.4
-    },
-  },
   literature: {
     rootFilter: {
       predicate: {
@@ -102,11 +80,14 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   maps: {
-    locale: 'fr'
+    locale: 'de'
   }
 };
 
-// example of a language specific route overwrite
-// if (pageLang === 'da')  {
-//   siteConfig.routes.occurrenceSearch.route = '/observationer/sog';
-// }
+// example of a language specific route overwrite, in this example for showing the maps labels in the language of the site
+if (pageLang === 'fr')  {
+  siteConfig.maps.locale = 'fr';
+}
+if (pageLang === 'en')  {
+  siteConfig.maps.locale = 'en';
+}

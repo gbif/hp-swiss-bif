@@ -1,39 +1,4 @@
-
-stories:
-  # Title (Optional)
-  title: Stories
-  # Description (Optional)
-  description: |
-    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
-  useSiteLinkWhenPossible: true # experimental - use the resource page when possible. See https://github.com/gbif/hp-france/issues/1
-  # Filters
-  # Use these options to tailor the content displayed in your block.
-  filters:
-    contentType: 
-      - DATA_USE
-      - NEWS
-      # - EVENT
-    limit: 6 
-    # locale:
-    #   - fr
-
-stats:
-  klass: contentTypesStat
-  # title: "type: stats"
-  # description: |      # required
-  #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
-  features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?displayOnNHCPortal=true">642</span>
-      description: Institutions
-      background: /assets/images/placeholders/institutions_small.jpg
-      href: /institution/search
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/collection?&displayOnNHCPortal=true">45</span>
-      description: Collections
-      background: /assets/images/placeholders/collections_small.jpg
-      href: /collection/search
-    - title: "54 million"
-      description: Digitized specimens
-      background: /assets/images/placeholders/specimen.png
+# you would have to create multiple of these to have it translated
 
 couldBeAnyName:
   title: Virginis socerque
