@@ -33,8 +33,7 @@ var siteConfig = {
         {
           "type": "equals",
           "key": "NETWORK_KEY",
-          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba",
-          "matchCase": false
+          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
         }
       ]
     },
