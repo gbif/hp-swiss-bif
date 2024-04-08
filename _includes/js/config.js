@@ -12,7 +12,7 @@ if (primaryColor) {
 
 var siteConfig = {
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE'],
+  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASETS'],
   routes: {
     enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
