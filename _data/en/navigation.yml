@@ -6,5 +6,7 @@
       href: /en/occurrence/search
     - text: Literature
       href: /en/literature/search
+    - text: Datasets
+      href: /en/dataset/search      
 - text: News
   href: /en/news

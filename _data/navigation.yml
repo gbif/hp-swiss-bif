@@ -8,5 +8,7 @@
       href: /occurrence/search
     - text: Literatur
       href: /literature/search
+    - text: Datasets
+      href: /dataset/search
 - text: Nachrichten
   href: /news
