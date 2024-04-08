@@ -39,7 +39,7 @@ var siteConfig = {
         "type": "not",
         "predicate": {
             "type": "equals",
-            "key": "basisOfRecord ",
+            "key": "basisOfRecord",
             "value": "PreservedSpecimen"
           }
         }
