@@ -46,8 +46,12 @@ var siteConfig = {
       ]
     },
     highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'] // what tabs should be shown
-    // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
+    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
+    availableTableColumns: ['scientificName', 'features', 'country', 'coordinate', 'eventDate', 'basisOfRecord', 'publisher', 'catalogueNumber', 
+                            'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institution', 
+                            'collection', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset'], // all the columns that are available to the user. This array defines the order they appear in.
+    defaultTableColumns: ['scientificName', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
+
   },
   dataset: {
     rootFilter: {publishingCountry: countryCode},
