@@ -11,6 +11,9 @@ if (primaryColor) {
 }
 
 var siteConfig = {
+  apiKeys: {
+   "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
+ },  
   version: 2,
   availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
   routes: {
@@ -82,7 +85,30 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   maps: {
-    locale: 'de'
+    locale: 'de',
+    defaultProjection: 'MERCATOR', // what is the default projection
+    defaultMapStyle: 'BRIGHT', // what is the default style
+    mapStyles: {
+      MERCATOR: ['BRIGHT', 'NATURAL', 'SATELLITE', 'DARK'],
+    },
+    addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
+      return {
+        SWISSTOPO: { // the name of your style
+          component: mapComponents.OpenlayersMapbox,
+          labelKey: 'Swisstopo', // the label in the select. Use a translation key
+          mapConfig: {
+            basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json`,
+            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
+          }
+        }
+      }
+    },
+    // rewire style names to show a different style
+    styleLookup: {
+      MERCATOR: {
+        BRIGHT: 'SWISSTOPO' 
+      }
+    }        
   }
 };
 
