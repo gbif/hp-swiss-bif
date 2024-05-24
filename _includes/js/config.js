@@ -95,7 +95,7 @@ var siteConfig = {
     addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
       return {
         SWISSTOPO: { // the name of your style
-          component: mapComponents.OpenlayersMapbox,
+          component: mapComponents.MapboxMap,
           labelKey: 'Swisstopo', // the label in the select. Use a translation key
           mapConfig: {
             basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json`,
