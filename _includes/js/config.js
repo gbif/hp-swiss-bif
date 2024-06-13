@@ -6,7 +6,7 @@ const countryCode = 'CH';
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
-    mapDensityColors: ['#051937', '#004d7a', '#008793', '#00bf72', '#a8eb12'],
+    mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],
     borderRadius: isSquared? 0 : 3
   }});
 }
