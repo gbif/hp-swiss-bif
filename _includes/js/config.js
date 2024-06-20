@@ -6,7 +6,10 @@ const countryCode = 'CH';
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
-    mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],
+    // mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],  // green2
+    mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
+    // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
+    // mapDensityColors: ['#71934c', '#608942', '#4d7b36', '#3e702b', '#2e621f'],  // darker green
     borderRadius: isSquared? 0 : 3
   }});
 }
