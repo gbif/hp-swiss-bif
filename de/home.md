@@ -9,8 +9,6 @@ height: 90vh
 height: 70vh
 permalink: /
 navbar: 
-  color: "transparent"        # What color should the navbar be?
-  hasWhiteText: true          # Should the text color be white?
   floating: true
 cta:
   - text: Occurrences
