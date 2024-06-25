@@ -7,6 +7,7 @@ background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
 height: 70vh
+parallax: true
 permalink: /
 navbar: 
   floating: true
