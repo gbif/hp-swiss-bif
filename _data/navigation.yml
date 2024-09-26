@@ -4,11 +4,11 @@
   href: /about
 - text: Entdecken
   menu:
-    - text: Vorkommen
+    - text: Artnachweise
       href: /occurrence/search
     - text: Literatur
       href: /literature/search
-    - text: Datasets
+    - text: Datensätze
       href: /dataset/search
 - text: Nachrichten
   href: /news
