@@ -8,6 +8,4 @@ permalink: /en/dashboards
 composition:
 - type: dashboard
   data: en.dashboard
-- type: dashboard
-  data: en.secondDashboard  
 ---
