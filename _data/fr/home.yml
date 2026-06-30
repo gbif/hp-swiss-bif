@@ -1,0 +1,12 @@
+# ============================================================================================================================
+# STATISTICS (GBIF)
+# Published specimens : <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/search?publishing_org=d80fedd1-940b-4669-871d-b9c990cf650e&limit=0"></span>
+# ============================================================================================================================
+stats:
+  klass: contentTypesStat
+  features:      
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=CH&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
+      description: "Occurrences"
+      background:  "{{ site.data.images.specimens.src }}"
+      imageLicense: "{{ site.data.images.specimens.caption }}"
+      href: "/occurrence/search"
