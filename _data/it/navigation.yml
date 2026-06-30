@@ -1,0 +1,10 @@
+- text: Su di noi
+  href: /it/about
+- text: Dati
+  menu:
+    - text: Eventi
+      href: /it/occurrence/search
+    - text: Set di Dati
+      href: /it/dataset/search            
+- text: Notizie
+  href: /fr/news 
