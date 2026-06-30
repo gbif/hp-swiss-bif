@@ -19,7 +19,7 @@ cta:
 composition:
   - type: heroImage
   - type: stats
-    data: home.stats
+    data: fr.home.stats
   - type: pageMarkdown
   - type: split
     data: examples.herbariumImageExample
