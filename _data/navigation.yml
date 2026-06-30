@@ -1,12 +1,12 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: À propos
+- text: Über
   href: /about
-- text: Données
+- text: Entdecken
   menu:
-    - text: Occurrences
+    - text: Artnachweise
       href: /occurrence/search
-    - text: Ensembles de données
+    - text: Datensätze
       href: /dataset/search
-- text: Nouvelles
+- text: Nachrichten
   href: /news
