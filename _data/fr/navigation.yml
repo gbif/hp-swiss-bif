@@ -1,14 +1,10 @@
 - text: À propos
   href: /fr/about
-- text: Explorer
+- text: Données
   menu:
-    - text: Événements
+    - text: Occurrences
       href: /fr/occurrence/search
-    - text: Littérature
-      href: /fr/literature/search
-    - text: Jeux de données
+    - text: Ensembles de données
       href: /fr/dataset/search            
 - text: Actualités
-  href: /fr/news
-- text: Dashboards
-  href: /en/dashboards  
+  href: /fr/news 
