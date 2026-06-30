@@ -1,12 +1,12 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
 - text: Über
-  href: /about
+  href: de/about
 - text: Entdecken
   menu:
     - text: Artnachweise
-      href: /occurrence/search
+      href: de/occurrence/search
     - text: Datensätze
-      href: /dataset/search
+      href: de/dataset/search
 - text: Nachrichten
-  href: /news
+  href: de/news
