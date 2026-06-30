@@ -7,6 +7,6 @@ stats:
   features:      
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=CH&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
       description: "Occurrences"
-      background:  "{{ site.data.images.specimens.src }}"
-      imageLicense: "{{ site.data.images.specimens.caption }}"
+      background:  /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
+      imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
       href: "/occurrence/search"
