@@ -20,7 +20,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title:  Swiss Biodiversity Information Facility # the title of your site should go here
-email: your-email@example.com
+email: contact@gbif.ch
 description: >- # this means to ignore newlines (until baseurl:)
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -40,10 +40,10 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: Your organisation name
+  name: GBIF Swiss Node
   domain: your-domain.org
-  contactEmail: info@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  contactEmail: contact@gbif.ch
+  helpdeskEmail: contact@gbif.ch
 
 # The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
 siteMeasurements:
@@ -53,13 +53,13 @@ siteMeasurements:
 
 
 algae:
-  rootLang: de
+  rootLang: fr
   # latestPostLimit: 2
   logo: /assets/images/gbif-nodes-logo-vf-01.png  # Logo in navbar, will be displayed with 28px height
   logoAndTitle: true           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
-    square: true               # Should corners be square or rounded
+    square: false               # Should corners be square or rounded
     colors:
       primary: "#31a354"          # Primary color of your brand. Use HEX code. Used for buttons and links
       # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
@@ -97,17 +97,6 @@ permalink: pretty # will strip extensions like .html from urls
 
 defaults:
   - scope:
-      path: "de/" # an empty string here means all files in the project
-    values:
-      layout: "page" # So by default any page will use the layout "page"
-      lang: de # And have the default language english
-  - scope:
-      path: "_posts" # an empty string here means all files in the project
-    values:
-      layout: "post"
-      permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  
-  - scope:
       path: "fr/"
     values:
       lang: fr
@@ -118,6 +107,17 @@ defaults:
       permalink: "/fr/post/:year/:slug/"
       lang: fr
 
+  - scope:
+      path: "de/" # an empty string here means all files in the project
+    values:
+      layout: "page" # So by default any page will use the layout "page"
+      lang: de # And have the default language english
+  - scope:
+      path: "_posts" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+  
   - scope:
       path: "en/" # an empty string here means all files in the project
     values:
