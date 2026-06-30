@@ -19,7 +19,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'DATASET'],
   routes: {
     enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
@@ -115,4 +115,10 @@ if (pageLang === 'fr')  {
 }
 if (pageLang === 'en')  {
   siteConfig.maps.locale = 'en';
+}
+if (pageLang === 'de')  {
+  siteConfig.maps.locale = 'de';
+}
+if (pageLang === 'it')  {
+  siteConfig.maps.locale = 'it';
 }
