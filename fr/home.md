@@ -5,11 +5,9 @@ title: Noeud Suisse de GBIF
 description: Mobilisation et Biodiversité
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
-height: 100vh
+height: 90vh
 parallax: false
 permalink: /fr/
-navbar: 
-  floating: true
 cta:
   - text: Occurrences
     href: /fr/occurrence/search
