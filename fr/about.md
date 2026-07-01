@@ -1,7 +1,8 @@
 ---
 lang-ref: about
-title: About
+title: À propos
 description: Lorem markdownum spatium limes indefessus neque at orat aestuat
+permalink: /fr/about
 background: /assets/images/placeholders/moss.jpg
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
