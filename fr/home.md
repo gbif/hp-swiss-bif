@@ -7,7 +7,7 @@ background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
 parallax: false
-permalink: /fr/
+permalink: /
 cta:
   - text: Occurrences
     href: /fr/occurrence/search
