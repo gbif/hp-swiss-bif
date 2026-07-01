@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: Biodiversitätsdaten Schweiz
+title: GBIF-Schweizer Knoten
 description: Mobilisierung und Biodiversität
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
