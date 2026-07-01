@@ -2,21 +2,18 @@
 lang-ref: home
 layout: home
 title: Biodiversitätsdaten Schweiz
-description: Lesser saw seas own have can’t kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they’re grass called open.
+description: Mobilisierung und Biodiversität
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
-height: 70vh
-parallax: true
-permalink: /
-navbar: 
-  floating: true
+parallax: false
+permalink: /de/
 cta:
-  - text: Occurrences
-    href: /occurrence/search
+  - text: Artnachweise
+    href: /de/occurrence/search
     isPrimary: true
-  - text: About
-    href: /about
+  - text: Über
+    href: /de/about
 composition:
   - type: heroImage
   - type: split
