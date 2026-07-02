@@ -10,7 +10,7 @@ parallax: false
 permalink: /
 cta:
   - text: Occurrences
-    href: /fr/occurrence/search
+    href: /occurrence/search
     isPrimary: true
   - text: À propos
     href: /fr/about
