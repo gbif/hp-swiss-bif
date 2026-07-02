@@ -9,4 +9,4 @@ stats:
       description: "Occurrences"
       background:  /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
-      href: "/occurrence/search"
+      href: "/fr/occurrence/search"
