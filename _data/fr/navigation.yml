@@ -3,7 +3,7 @@
 - text: Données
   menu:
     - text: Données d'observations validées par des experts
-      href: /fr/occurrence/search
+      href: /occurrence/search
     - text: Données de collections
       href: /fr/dataset/search            
     - text: Données de recherche
