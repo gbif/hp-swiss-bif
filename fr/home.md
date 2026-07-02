@@ -13,7 +13,7 @@ cta:
     href: /fr/occurrence/search
     isPrimary: true
   - text: À propos
-    href: /fr/about
+    href: /about
 composition:
   - type: heroImage
   - type: stats
