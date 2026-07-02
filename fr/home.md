@@ -10,10 +10,10 @@ parallax: false
 permalink: /
 cta:
   - text: Occurrences
-    href: /occurrence/search
+    href: /fr/occurrence/search
     isPrimary: true
   - text: À propos
-    href: /about
+    href: /fr/about
 composition:
   - type: heroImage
   - type: stats
