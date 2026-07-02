@@ -2,9 +2,11 @@
   href: /fr/about
 - text: Données
   menu:
-    - text: Occurrences
+    - text: Données d'observations validées par des experts
       href: /fr/occurrence/search
-    - text: Ensembles de données
+    - text: Données de collections
       href: /fr/dataset/search            
+    - text: Données de recherche
+      href: /fr/dataset/search 
 - text: Actualités
   href: /fr/news 
