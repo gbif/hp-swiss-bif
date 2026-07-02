@@ -99,6 +99,7 @@ defaults:
   - scope:
       path: "fr/"
     values:
+      layout: "page"
       lang: fr
   - scope:
       path: "_posts/fr"
