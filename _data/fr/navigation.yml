@@ -1,12 +1,12 @@
 - text: À propos
-  href: /about
+  href: /fr/about
 - text: Données
   menu:
     - text: Données d'observations validées par des experts
-      href: /occurrence/search
+      href: /fr/occurrence/search
     - text: Données de collections
-      href: /dataset/search            
+      href: /fr/dataset/search            
     - text: Données de recherche
-      href: /dataset/search 
+      href: /fr/dataset/search 
 - text: Actualités
   href: /fr/news 
