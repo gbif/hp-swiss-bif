@@ -5,9 +5,9 @@ const countryCode = 'CH';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-    primary: '#31a354',
+    primary: primary,
     // mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],  // green2
-    mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
+    // mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
     // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
     // mapDensityColors: ['#71934c', '#608942', '#4d7b36', '#3e702b', '#2e621f'],  // darker green
     borderRadius: isSquared? 0 : 3
@@ -37,12 +37,12 @@ var siteConfig = {
           "type": "equals",
           "key": "country",
           "value": countryCode
-        },
-        {
-          "type": "equals",
-          "key": "networkKey",
-          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
-        }
+        }//,
+        //{
+          //"type": "equals",
+          //"key": "networkKey",
+          //"value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
+        //}
       ]
     },
     highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
