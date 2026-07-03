@@ -23,7 +23,7 @@ var siteConfig = {
   routes: {
     enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
-  occurrenceSearch: {
+  occurrence: {
     mapSettings: {
       enabled: true,
       lat: 46.801111,
