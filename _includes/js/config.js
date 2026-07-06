@@ -132,13 +132,11 @@ var siteConfig = {
   },
   "datasetSearch": {
     "scope": {
-      "predicate": {
-        "type": "or",
-        "predicates": [
-          {"type": "equals", "key": "networkKey", "values": "0b00b924-016b-4954-96a7-2d9264b5d0ba" },
-          { "type": "in", "key": "publisherKey", "values": ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"] } // = SwissNatColl, SwissRD, infospecies
-        ]
-      }
+      "type": "or",
+      "predicates": [
+        {"type": "equals", "key": "networkKey", "values": "0b00b924-016b-4954-96a7-2d9264b5d0ba" },
+        { "type": "in", "key": "publisherKey", "values": ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"] } // = SwissNatColl, SwissRD, infospecies
+      ]
     },
     "highlightedFilters": ["q", "anyPublisherKey", "datasetType", "license"],
     "excludedFilters": ["publishingCountryCode"]
