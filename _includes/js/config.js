@@ -82,7 +82,7 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   maps: {
-    locale: 'de',
+    locale: 'fr',
     defaultProjection: 'MERCATOR', // what is the default projection
     defaultMapStyle: 'BRIGHT', // what is the default style
     mapStyles: {
