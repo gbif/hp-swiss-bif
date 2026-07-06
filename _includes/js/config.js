@@ -2,6 +2,7 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
+const publishingOrg = ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"];
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -39,9 +40,9 @@ var siteConfig = {
           "value": countryCode
         },
         {
-          "type": "equals",
+          "type": "in",
           "key": publishingOrg, //"networkKey",
-          "value": ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"] //"0b00b924-016b-4954-96a7-2d9264b5d0ba"
+          "value": publishingOrg //"0b00b924-016b-4954-96a7-2d9264b5d0ba"
         }
       ]
     },
