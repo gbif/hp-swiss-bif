@@ -21,11 +21,14 @@ _Jusqu’à présent, la Suisse était membre associé du GBIF. En renforçant s
 
 GBIF.ch est notamment chargé de :
 
+
 - Coordonner le réseau de partenaires suisses disposées à participer à l’effort global de mise à disposition des informations existantes en Suisse sur la biodiversité.
 - Mobiliser des données d’origines multiples sur une base harmonisée résultant de flux et procédures qui assurent la cohérence des informations avec les standards définis par GBIF.ch.
 - Faciliter le lien entre les niveaux national et international, notamment en offrant une infrastructure et des services de gestion et d’intégration des informations.
 
+
 {% include html_content/imagesAndGraphs.html key="gbif-ch-infrastructure-graph-fr" %}
+
 
 1. Agrégation et homogénéisation des données liées au matériel dans les collections scientifiques (p.ex. données de spécimens d'origine suisse et étrangère dans les musées, biobanques de tissu et ADN).
 2. Enregistrement et validation des données orphelines primaires et complémentaires qui proviennent de sources hétérogènes (p.ex. données dérivées de l’ADN).
