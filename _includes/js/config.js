@@ -131,12 +131,7 @@ var siteConfig = {
     }
   },
   "datasetSearch": {
-    "scope": {
-      "type": "equals",
-      "key": "networkKey",
-      "values": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
-      }
-    },
+    "scope": { "networkKey": countryCode },
     "highlightedFilters": ["q", "anyPublisherKey", "datasetType", "license"],
     "excludedFilters": ["publishingCountryCode"]
   },
