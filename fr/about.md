@@ -19,6 +19,7 @@ _Jusqu’à présent, la Suisse était membre associé du GBIF. En renforçant s
 # Mission du Nœud Suisse de GBIF
 
 GBIF.ch est notamment chargé de :
+
 - Coordonner le réseau de partenaires suisses disposées à participer à l’effort global de mise à disposition des informations existantes en Suisse sur la biodiversité.
 - Mobiliser des données d’origines multiples sur une base harmonisée résultant de flux et procédures qui assurent la cohérence des informations avec les standards définis par GBIF.ch.
 - Faciliter le lien entre les niveaux national et international, notamment en offrant une infrastructure et des services de gestion et d’intégration des informations.
