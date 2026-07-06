@@ -6,31 +6,102 @@ const countryCode = 'CH';
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
-    // mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],  // green2
-    mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
-    // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
-    // mapDensityColors: ['#71934c', '#608942', '#4d7b36', '#3e702b', '#2e621f'],  // darker green
     borderRadius: isSquared? 0 : 3
   }});
 }
 
 var siteConfig = {
-  apiKeys: {
-   "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
- },  
-  version: 2,
-  availableCatalogues: ['OCCURRENCE', 'DATASET'],
-  routes: {
-    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+  "version": 3,
+  "pages": [
+    { "id": "occurrenceSearch" },
+    { "id": "publisherKey" },
+    { "id": "datasetKey" },
+    { "id": "datasetSearch" },
+    { "id": "literatureSearch" }
+  ],
+  "availableCatalogues": ["OCCURRENCE", "DATASET"],
+  "theme": {
+    "primary": primaryColor,
+    "borderRadius": isSquared,
+    // Palette verte 5 classes (ColorBrewer "Greens"), mêmes paliers de contraste
+    // que la palette bleue du fichier v3 (claire -> foncée)
+    "mapDensityColors": ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"]
   },
-  occurrence: {
-    mapSettings: {
-      enabled: true,
-      lat: 46.801111,
-      lng: 8.626667,
-      zoom: 7.877
+  "apiKeys": {
+    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow"
+  },
+  "maps": {
+    "locale": "fr",
+    "mapStyles": {
+      "defaultProjection": "MERCATOR",
+      "defaultMapStyle": "BRIGHT",
+      "options": {
+        "MERCATOR": ["BRIGHT", "NATURAL", "SATELLITE", "DARK"]
+      }
     },
-    rootPredicate: {
+    // Rewire du style pour afficher Swisstopo à la place de BRIGHT
+    "styleLookup": {
+      "MERCATOR": {
+        "BRIGHT": "SWISSTOPO"
+      }
+    },
+    addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
+      return {
+        SWISSTOPO: {
+          component: mapComponents.MapboxMap,
+          labelKey: 'Swisstopo',
+          mapConfig: {
+            basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json`,
+            projection: 'EPSG_3857'
+          }
+        }
+      }
+    }
+  },
+  "languages": [
+    {
+      code: 'fr',
+      localeCode: 'fr',
+      label: 'Français',
+      default: true,
+      textDirection: 'ltr',
+      iso3LetterCode: 'fra',
+      gbifOrgLocalePrefix: '/fr',
+      mapTileLocale: 'fr'
+    },
+    {
+      code: 'de',
+      localeCode: 'de',
+      label: 'Deutsch',
+      default: false,
+      textDirection: 'ltr',
+      iso3LetterCode: 'deu',
+      gbifOrgLocalePrefix: '',
+      mapTileLocale: 'de'
+    },
+    {
+      code: 'it',
+      localeCode: 'it',
+      label: 'Italiano',
+      default: false,
+      textDirection: 'ltr',
+      iso3LetterCode: 'ita',
+      gbifOrgLocalePrefix: '',
+      mapTileLocale: 'it'
+    },
+    {
+      code: 'en',
+      localeCode: 'en',
+      label: 'English',
+      default: false,
+      textDirection: 'ltr',
+      iso3LetterCode: 'eng',
+      gbifOrgLocalePrefix: '',
+      mapTileLocale: 'en'
+    }
+  ],
+  "occurrenceSearch": {
+    "scope": {
       "type": "and",
       "predicates": [
         {
@@ -45,80 +116,44 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
-    availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
-                            'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
-                            'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
-    defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
-
+    "highlightedFilters": ["taxonKey", "gadmGid", "stateProvince", "publisherKey", "elevation", "year", "basisOfRecord", "datasetName", "occurrenceIssue"],
+    "tabs": ["map", "table", "gallery", "datasets", "dashboard"],
+    "availableTableColumns": ["scientificName", "features", "country", "coordinates", "eventDate", "basisOfRecord", "publisher", "catalogNumber",
+                            "recordedBy", "identifiedBy", "recordNumber", "typeStatus", "preparations", "collectionCode", "institutionCode", "institutionKey",
+                            "collectionKey", "locality", "higherGeography", "stateProvince", "year", "establishmentMeans", "iucnRedListCategory", "dataset", "datasetName"],
+    "defaultEnabledTableColumns": ["scientificName", "higherGeography", "country", "year", "establishmentMeans", "iucnRedListCategory", "catalogNumber", "institutionKey", "dataset", "datasetName"],
+    "mapSettings": {
+      "enabled": true,
+      "lat": 46.801111,
+      "lng": 8.626667,
+      "zoom": 7.877
+    }
   },
-  dataset: {
-    rootFilter: {publishingCountry: countryCode},
-    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
-    excludedFilters: ['publishingCountryCode'],
+  "datasetSearch": {
+    "scope": { "publishingCountry": countryCode },
+    "highlightedFilters": ["q", "anyPublisherKey", "datasetType", "license"],
+    "excludedFilters": ["publishingCountryCode"]
   },
-  publisher: {
-    rootFilter: {country: countryCode},
-    excludedFilters: ['countrySingle', 'networkKey'],
+  "publisherSearch": {
+    "scope": { "country": countryCode },
+    "excludedFilters": ["countrySingle", "networkKey"]
   },
-  literature: {
-    rootFilter: {
-      predicate: {
-        type: 'or', predicates: [
-          {
-            type: 'in',
-            key: 'countriesOfResearcher',
-            values: [countryCode]
-          },
-          {
-            type: 'in',
-            key: 'countriesOfCoverage',
-            values: [countryCode]
-          }
+  "literatureSearch": {
+    "scope": {
+      "predicate": {
+        "type": "or",
+        "predicates": [
+          { "type": "in", "key": "countriesOfResearcher", "values": [countryCode] },
+          { "type": "in", "key": "countriesOfCoverage", "values": [countryCode] }
         ]
       }
     },
-    highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
-  },
-  maps: {
-    locale: 'fr',
-    defaultProjection: 'MERCATOR', // what is the default projection
-    defaultMapStyle: 'BRIGHT', // what is the default style
-    mapStyles: {
-      MERCATOR: ['BRIGHT', 'NATURAL', 'SATELLITE', 'DARK'],
-    },
-    addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
-      return {
-        SWISSTOPO: { // the name of your style
-          component: mapComponents.MapboxMap,
-          labelKey: 'Swisstopo', // the label in the select. Use a translation key
-          mapConfig: {
-            basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json`,
-            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
-          }
-        }
-      }
-    },
-    // rewire style names to show a different style
-    styleLookup: {
-      MERCATOR: {
-        BRIGHT: 'SWISSTOPO' 
-      }
-    }        
+    "highlightedFilters": ["q", "countriesOfResearcher", "countriesOfCoverage", "year"]
   }
 };
 
-// example of a language specific route overwrite, in this example for showing the maps labels in the language of the site
-if (pageLang === 'fr')  {
-  siteConfig.maps.locale = 'fr';
-}
-if (pageLang === 'en')  {
-  siteConfig.maps.locale = 'en';
-}
-if (pageLang === 'de')  {
-  siteConfig.maps.locale = 'de';
-}
-if (pageLang === 'it')  {
-  siteConfig.maps.locale = 'it';
-}
+// Surcharge de la langue des cartes selon la langue de la page
+if (pageLang === 'fr')  { siteConfig.maps.locale = 'fr'; }
+if (pageLang === 'en')  { siteConfig.maps.locale = 'en'; }
+if (pageLang === 'de')  { siteConfig.maps.locale = 'de'; }
+if (pageLang === 'it')  { siteConfig.maps.locale = 'it'; }
