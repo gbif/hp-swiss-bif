@@ -131,7 +131,15 @@ var siteConfig = {
     }
   },
   "datasetSearch": {
-    "scope": { "publishingCountry": countryCode },
+    "scope": {
+      "predicate": {
+        "type": "and",
+        "predicates": [
+          {"type": "equals", "key": "country", "values": countryCode },
+          { "type": "in", "key": "publisherKey", "values": ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"] } // = SwissNatColl, SwissRD, infospecies
+        ]
+      }
+    },
     "highlightedFilters": ["q", "anyPublisherKey", "datasetType", "license"],
     "excludedFilters": ["publishingCountryCode"]
   },
