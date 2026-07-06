@@ -11,7 +11,7 @@ stats:
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
       href: "/occurrence/search"
 
-     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
       description: "Datasets"
       background:  /assets/images/placeholders/collections_small.jpg
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
