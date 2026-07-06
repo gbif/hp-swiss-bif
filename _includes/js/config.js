@@ -2,11 +2,10 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
-const publishingOrg = ["9661d20d-86b6-4485-8948-f3c86b022fa7", "e9c97df1-fb0a-46d6-8cef-08005205291b", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"];
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-    primary: primary,
+    primary: primaryColor,
     // mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],  // green2
     // mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
     // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
