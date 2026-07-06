@@ -14,12 +14,13 @@ var siteConfig = {
   "version": 3,
   "pages": [
     { "id": "occurrenceSearch" },
+    { "id": "publisherSearch" },
     { "id": "publisherKey" },
     { "id": "datasetKey" },
     { "id": "datasetSearch" },
     { "id": "literatureSearch" }
   ],
-  "availableCatalogues": ["OCCURRENCE", "DATASET"],
+  "availableCatalogues": ["OCCURRENCE", "DATASET", "PUBLISHER", "LITERATURE"],
   "theme": {
     "primary": primaryColor,
     "borderRadius": isSquared,
