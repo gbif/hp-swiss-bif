@@ -8,6 +8,7 @@ imageLicense: |
 height: 70vh
 permalink: /about
 ---
+
 {% include lightbox2_zoom.html %}
 
 # Communiqué de la Confédération Suisse (6 juillet 2016)
