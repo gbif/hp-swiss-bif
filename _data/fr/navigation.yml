@@ -1,5 +1,5 @@
 - text: À propos
-  href: /fr/about
+  href: /about
 - text: Données
   menu:
     - text: Données d'observations validées par des experts
@@ -9,4 +9,4 @@
     - text: Données de recherche
       href: /occurrence/search
 - text: Actualités
-  href: /fr/news 
+  href: /news 
