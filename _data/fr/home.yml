@@ -22,3 +22,24 @@ stats:
       background:  /assets/images/placeholders/closeup.png
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
       href: "/publisher/search"
+
+split1:
+  reverse: false
+  title: "Un participant votant du GBIF de Europe"
+  description: |      # required
+    Statut du membre: Votant
+    Participant GBIF depuis 2001
+    Région GBIF: Europe
+    Chef de délegation: Jérôme Frei
+    Nom du nœud: GBIF Switzerland
+    Noeud établi en 2004
+    Site Internet: https://www.gbif.ch
+    Gestionnaire du noeud participant: Sofia Wyler
+  background: https://data.nhm.ac.uk/media/d9850154-9e45-426c-8712-d030da3c1c00
+  imageLicense: |
+    *Polyptychodon* Owen, 1841 collected in United Kingdom of Great Britain and Northern Ireland. [See full record](/specimen/search?entity=1057252794&view=TABLE) (licensed under http://creativecommons.org/licenses/by/4.0/)
+  # href: /about
+  cta:
+  - text: Pour en savoir plus
+    href: https://www.gbif.org/country/CH/summary
+    isPrimary: true
