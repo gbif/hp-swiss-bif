@@ -137,7 +137,7 @@ var siteConfig = {
         }
       ]
     },
-    "highlightedFilters": ["taxonKey", "gadmGid", "stateProvince", "publisherKey", "elevation", "year", "basisOfRecord", "datasetName", "occurrenceIssue"],
+    "highlightedFilters": ["taxonKey", "gadmGid", "stateProvince", "publisherKey", "year", "basisOfRecord", "datasetName", "publishingOrg"],
     "tabs": ["map", "table", "gallery", "datasets", "dashboard"],
     "availableTableColumns": ["scientificName", "features", "country", "coordinates", "eventDate", "basisOfRecord", "publisher", "catalogNumber",
                             "recordedBy", "identifiedBy", "recordNumber", "typeStatus", "preparations", "collectionCode", "institutionCode", "institutionKey",
