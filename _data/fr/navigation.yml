@@ -6,5 +6,7 @@
       href: /occurrence/search?basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
     - text: Spécimens
       href: /occurrence/search?basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
+    - text: eDNA
+      href: /occurrence/search?basisOfRecord=MATERIAL_SAMPLE
 - text: Actualités
   href: /news 
