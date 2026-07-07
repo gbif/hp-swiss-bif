@@ -26,7 +26,7 @@ stats:
 split1:
   reverse: false
   title: "Un participant votant du GBIF de Europe"
-  description: |      # required
+  description: >      # required
     Statut du membre: Votant
     Participant GBIF depuis 2001
     Région GBIF: Europe
