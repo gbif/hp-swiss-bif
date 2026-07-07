@@ -103,17 +103,36 @@ var siteConfig = {
   ],
   "occurrenceSearch": {
     "scope": {
-      "type": "and",
+      "type": "or",
       "predicates": [
         {
-          "type": "equals",
-          "key": "country",
-          "value": countryCode
+          "type": "and",
+          "predicates": [
+          {
+            "key": "country",
+            "type": "equals",
+            "value": countryCode                                // seulement CH
+          },
+          {
+            "key": "publishingOrg",
+            "type": "equals",
+            "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"    // infospecies
+          }
         },
         {
-          "type": "equals",
-          "key": "networkKey",
-          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
+          "type": "and",
+          "predicates": [
+            {
+              "key": "country",
+              "type": "equals",
+              "value": countryCode                                // seulement CH
+            },
+            {
+              "key": "publishingOrg",
+              "type": "equals",
+              "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"    // swissnatcoll
+            }
+          ]
         }
       ]
     },
