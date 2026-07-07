@@ -118,6 +118,7 @@ var siteConfig = {
             "type": "equals",
             "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"    // infospecies
           }
+          ]
         },
         {
           "type": "and",
