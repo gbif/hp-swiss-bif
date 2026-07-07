@@ -1,6 +1,10 @@
 - text: À propos
   href: /about
 - text: Données
-  href: /occurrence/search
+  menu:
+    - text: Observations
+      href: /occurrence/search
+    - text: Spécimens de collection
+      href: /occurrence/search
 - text: Actualités
   href: /news 
