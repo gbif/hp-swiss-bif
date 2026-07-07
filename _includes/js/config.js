@@ -132,6 +132,11 @@ var siteConfig = {
               "key": "publishingOrg",
               "type": "equals",
               "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"    // swissnatcoll
+            },
+            {
+              "key": "identificationVerificationStatus",
+              "type": "equals",
+              "value": "Validated by InfoSpecies"
             }
           ]
         }
