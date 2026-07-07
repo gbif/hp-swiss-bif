@@ -150,12 +150,12 @@ var siteConfig = {
     }
   },
   "datasetSearch": {
-    "scope": { "networkKey": "0b00b924-016b-4954-96a7-2d9264b5d0ba" },
+    "scope": { "type": "in", "key": "publishingOrg", "value": ("9661d20d-86b6-4485-8948-f3c86b022fa7", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9") },
     "highlightedFilters": ["q", "anyPublisherKey", "datasetType", "license"],
     "excludedFilters": ["publishingCountryCode"]
   },
   "publisherSearch": {
-    "scope": { "networkKey": "0b00b924-016b-4954-96a7-2d9264b5d0ba" },
+    "scope": { "type": "in", "key": "publishingOrg", "value": ("9661d20d-86b6-4485-8948-f3c86b022fa7", "64ee55c9-570a-42af-b7da-3f13c6b4e5a9") },
     "excludedFilters": ["countrySingle", "networkKey"]
   },
   "literatureSearch": {
