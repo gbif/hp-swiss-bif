@@ -20,19 +20,13 @@ composition:
     data: fr.home.stats
   - type: pageMarkdown
   - type: split
-    data: examples.herbariumImageExample
+    data: fr.home.split1
   - type: features
-    data: examples.couldBeAnyName
+    data: fr.home.features1
 ---
 
-Edit `/home.md` to change the text.
+Le Système suisse d’information sur la biodiversité (SwissBIF) gère un réseau de partenaires qui contribuent à répondre à l’engagement du Conseil fédéral suisse de partager des données normalisées sur la biodiversité avec l’initiative mondiale (Global Biodiversity Information Facility).
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+Sous l’égide de l’Office fédéral de l’environnement, SwissBIF rassemble des acteurs dynamiques qui renforcent les échanges internationaux d’informations primaires sur la biodiversité, facilitent la mobilisation et la réutilisation des données pertinentes pour soutenir les actions de conservation et accroître les connaissances sur la biodiversité.
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+Ce réseau collaboratif associe des centres nationaux d’enregistrement de la biodiversité, des collections scientifiques, des contributions à la recherche, des agences cantonales de conservation, des administrations d’aires protégées et des offices fédéraux. Les participants au réseau travaillent selon des procédures communes, un cadre éthique partagé et un flux de données coordonné qui facilitent l’accès à des données multidimensionnelles et cohérentes.
