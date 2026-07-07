@@ -134,7 +134,7 @@ var siteConfig = {
               "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"    // swissnatcoll
             },
             {
-              "key": "identificationVerificationStatus",
+              "key": "q",
               "type": "equals",
               "value": "Validated by InfoSpecies"
             }
