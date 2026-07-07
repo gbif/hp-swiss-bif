@@ -2,9 +2,11 @@
   href: /en/about
 - text: Data
   menu:
-    - text: Occurrences
-      href: /en/occurrence/search
-    - text: Datasets
-      href: /en/dataset/search      
+    - text: Observations
+      href: /en/occurrence/search?basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
+    - text: Specimens
+      href: /en/occurrence/search?basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
+    - text: eDNA
+      href: /en/occurrence/search?basisOfRecord=MATERIAL_SAMPLE
 - text: News
   href: /en/news
