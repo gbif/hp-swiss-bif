@@ -43,3 +43,23 @@ split1:
   - text: Pour en savoir plus
     href: https://www.gbif.org/country/CH/summary
     isPrimary: true
+
+features1:
+  title: 
+  description: |
+    Dataset is maintained by Info Flora. All data provided have been subject to a validation procedure.
+  features:
+    - title: Swiss National Databank of Vascular Plants # required
+      description: |      # required
+        Dataset maintenu pas Info Flora. Toutes les données fournies ont été soumises à une procédure de validation.
+      href: https://www.gbif.org/fr/dataset/83fdfd3d-3a25-4705-9fbe-3db1d1892b13
+      # img required
+      background: https://st3.depositphotos.com/25536562/31767/i/450/depositphotos_317677618-stock-photo-endangered-nature-rare-wild-meadow.jpg
+      imageLicense: Flore suisse images libres de droit, photos de Flore suisse | DepositPhotos
+      categories: [flore] # optional
+    - title: Swiss National Fauna Databank # required
+      description: |      # required
+        Dataset maintenu par finfo fauna. Toutes les données fournies ont été soumises à une procédure de validation.
+      href: https://www.gbif.org/fr/dataset/0a0b594e-0c5e-4766-a5d7-66043160de5f
+      background: https://www.animal-cross.org/wp-content/uploads/2018/10/belettre-librededroits.jpg
+      imageLicense: La belette, si discrète mais tellement persécutée - Animal Cross
