@@ -3,8 +3,8 @@
 - text: Données
   menu:
     - text: Observations
-      href: /occurrence/search
+      href: /occurrence/search?basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
     - text: Spécimens
-      href: /occurrence/search
+      href: /occurrence/search?basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
 - text: Actualités
   href: /news 
