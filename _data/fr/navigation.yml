@@ -1,12 +1,6 @@
 - text: À propos
   href: /about
-- text: Données
-  menu:
-    - text: Données d'observations validées par des experts
-      href: /occurrence/search
-    - text: Données de collections
-      href: /occurrence/search      
-    - text: Données de recherche
-      href: /occurrence/search
+- text: Données validées par des experts
+  href: /occurrence/search
 - text: Actualités
   href: /news 
