@@ -9,20 +9,14 @@ height: 90vh
 parallax: false
 permalink: /
 cta:
-  - text: Occurrences
+  - text: Données
     href: /occurrence/search
     isPrimary: true
   - text: À propos
-    href: /fr/about
+    href: /about
 composition:
   - type: heroImage
-  - type: stats
-    data: fr.home.stats
   - type: pageMarkdown
-  - type: split
-    data: fr.home.split1
-  - type: features
-    data: fr.home.features1
 ---
 
 Le Système suisse d’information sur la biodiversité (SwissBIF) gère un réseau de partenaires qui contribuent à répondre à l’engagement du Conseil fédéral suisse de partager des données normalisées sur la biodiversité avec l’initiative mondiale (Global Biodiversity Information Facility).
