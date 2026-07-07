@@ -3,8 +3,10 @@
 - text: Dati
   menu:
     - text: Eventi
-      href: /it/occurrence/search
-    - text: Set di Dati
-      href: /it/dataset/search            
+      href: /it/occurrence/search?basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
+    - text: Esemplare
+      href: /it/occurrence/search?basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
+    - text: eDNA
+      href: /it/occurrence/search?basisOfRecord=MATERIAL_SAMPLE
 - text: Notizie
-  href: /it/news 
+  href: /it/news
