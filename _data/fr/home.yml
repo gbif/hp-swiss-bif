@@ -45,9 +45,9 @@ split1:
     isPrimary: true
 
 features1:
-  title: 
+  title: Données publiées par le réseau suisse
   description: |
-    Dataset is maintained by Info Flora. All data provided have been subject to a validation procedure.
+    Les données proviennent de sources multiples telles que des observations de terrain fournies par un vaste réseau de collaborateurs bénévoles, des études d'impact environnemental, des inventaires nationaux (stratégie de la Liste rouge), des collections muséales, de la littérature et des travaux universitaires.
   features:
     - title: Swiss National Databank of Vascular Plants # required
       description: |      # required
