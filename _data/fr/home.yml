@@ -6,7 +6,7 @@ stats:
   klass: contentTypesStat
   features:      
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
-      description: "Données de Suisse"
+      description: "Données enregistrées en Suisse"
       background:  /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
       href: "/occurrence/search"
@@ -18,7 +18,7 @@ stats:
       href: "/occurrence/search"
     
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
-      description: "Publishers"
+      description: "Données validées pour la Suisse"
       background:  /assets/images/placeholders/closeup.png
       imageLicense: "Données validées pour la Suisse"
       href: "/occurrence/search"
