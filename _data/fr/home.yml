@@ -16,8 +16,12 @@ blank:
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
       }
       .hero-swiss-node .hero-content {
-        padding: 40px 60px;
+        width: 35%;
+        min-width: 280px;
+        box-sizing: border-box;
+        padding: 40px;
         text-align: left;
+        background: rgba(0, 0, 0, 0.45);
       }
       .hero-swiss-node h1 {
         margin: 0;
