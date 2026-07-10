@@ -1,3 +1,45 @@
+blank:
+  klass: hero-suisse
+  markdownContent: |
+    <style>
+      .hero-swiss-node {
+        margin: 0;
+        min-height: 400px;
+        background-image: {{ site.data.images.acalypha_gillespieae.src }};
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: white;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .hero-swiss-node .hero-content {
+        padding: 40px 60px;
+        text-align: left;
+      }
+      .hero-swiss-node h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.1;
+      }
+      .hero-swiss-node p {
+        margin: 12px 0 0 0;
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 600px;
+      }
+    </style>
+    <div class="hero-swiss-node">
+      <div class="hero-content">
+        <h1>Noeud Suisse de GBIF</h1>
+        <p>Accédez aux données sur la biodiversité en Suisse et contribuez au réseau mondial GBIF.</p>
+      </div>
+    </div>
+
 # ============================================================================================================================
 # STATISTICS (GBIF)
 # Published specimens : <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/search?publishing_org=d80fedd1-940b-4669-871d-b9c990cf650e&limit=0"></span>
