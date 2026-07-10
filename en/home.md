@@ -1,8 +1,6 @@
 ---
 lang-ref: home
 layout: home
-title: 
-description: Mobilisation and Biodiversity
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
