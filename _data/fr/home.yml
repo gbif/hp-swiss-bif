@@ -5,7 +5,7 @@ blank:
       .hero-swiss-node {
         margin: 0;
         min-height: 400px;
-        background-image: {{ site.data.images.acalypha_gillespieae.src }};
+        background-image: url('{{ site.data.images.acalypha_gillespieae.src }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
