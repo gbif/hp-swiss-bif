@@ -5,6 +5,7 @@ background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
 parallax: false
+overlayColor: "transparent"
 permalink: /
 composition:
   - type: heroImage
