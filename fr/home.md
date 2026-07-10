@@ -6,12 +6,6 @@ imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
 parallax: false
 permalink: /
-cta:
-  - text: Données
-    href: /occurrence/search
-    isPrimary: true
-  - text: À propos
-    href: /about
 composition:
   - type: heroImage
   - type: stats
