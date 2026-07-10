@@ -1,7 +1,7 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
-const countryCode = 'CH';
+const gadmGid = "CHE";
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -103,39 +103,9 @@ var siteConfig = {
   ],
   "occurrenceSearch": {
     "scope": {
-      "type": "or",
-      "predicates": [
-        {
-          "type": "and",
-          "predicates": [
-          {
-            "key": "country",
-            "type": "equals",
-            "value": countryCode                                // seulement CH
-          },
-          {
-            "key": "publishingOrg",
-            "type": "equals",
-            "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"    // infospecies
-          }
-          ]
-        },
-        {
-          "type": "and",
-          "predicates": [
-            {
-              "key": "country",
-              "type": "equals",
-              "value": countryCode                                // seulement CH
-            },
-            {
-              "key": "publishingOrg",
-              "type": "equals",
-              "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"    // swissnatcoll
-            }
-          ]
-        }
-      ]
+      "key": "gadmGid",
+      "type": "equals",
+      "value": gadmGid
     },
     "highlightedFilters": ["taxonKey", "gadmGid", "stateProvince", "publisherKey", "year", "basisOfRecord", "datasetName", "publishingOrg"],
     "tabs": ["map", "table", "gallery", "datasets", "dashboard"],
