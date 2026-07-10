@@ -8,7 +8,6 @@ parallax: false
 overlayColor: "transparent"
 permalink: /
 composition:
-  - type: heroImage
   - type: blank
     data: fr.home.blank
   - type: stats
