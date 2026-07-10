@@ -24,6 +24,7 @@ blank:
         background: rgba(0, 0, 0, 0.45);
       }
       .hero-swiss-node h1 {
+        font-family: Cambria, Georgia, serif;
         margin: 0;
         font-size: 40px;
         font-weight: 900;
@@ -31,6 +32,8 @@ blank:
         line-height: 1.1;
       }
       .hero-swiss-node p {
+      .hero-swiss-node h1 {
+        font-family: "Century Gothic", Futura, sans-serif;
         margin: 12px 0 0 0;
         font-size: 18px;
         font-weight: 400;
