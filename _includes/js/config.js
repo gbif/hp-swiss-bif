@@ -1,7 +1,7 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
-const gadmGid = "CHE";
+const countryCode = "CH"
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -105,7 +105,7 @@ var siteConfig = {
     "scope": {
       "key": "gadmGid",
       "type": "equals",
-      "value": gadmGid
+      "value": "CHE"
     },
     "highlightedFilters": ["taxonKey", "gadmGid", "stateProvince", "publisherKey", "year", "basisOfRecord", "datasetName", "publishingOrg"],
     "tabs": ["map", "table", "gallery", "datasets", "dashboard"],
