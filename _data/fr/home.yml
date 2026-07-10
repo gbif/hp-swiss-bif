@@ -39,18 +39,18 @@ blank:
       }
       .hero-swiss-node .image-credit {
         position: absolute;
-        bottom: 10px;
-        left: 10px;
+        bottom: 8px;
+        left: 8px;
         z-index: 2;
       }
       .hero-swiss-node .image-credit .credit-icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 24px;
-        height: 24px;
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
-        background: rgba(0, 0, 0, 0.55);
+        background: rgba(0, 0, 0, 0.35);
         color: white;
         font-size: 13px;
         font-weight: 700;
