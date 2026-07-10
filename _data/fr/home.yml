@@ -5,23 +5,23 @@
 stats:
   klass: contentTypesStat
   features:      
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?gadmGid=CHE&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
       description: "Données enregistrées en Suisse"
       background:  /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
-      href: "/occurrence/search"
+      href: "/occurrence/search?gadmGid=CHE"
 
-    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingCountry=CH&gadmGid=CHE&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
       description: "Données publiées par la Suisse"
       background:  /assets/images/placeholders/collections_small.jpg
       imageLicense: "GBIF Placeholder: Catocala ilia, Cramer"
-      href: "/occurrence/search"
+      href: "/occurrence/search?publishingCountry=CH&gadmGid=CHE"
     
-    - title: <span data-ajax-url="https://api.gbif.org/v1/organization?networkKey=0b00b924-016b-4954-96a7-2d9264b5d0ba&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=64ee55c9-570a-42af-b7da-3f13c6b4e5a9&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7&gadmGid=CHE&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fnmhuth&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fynegtz&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fsbszsz&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fvtpycn&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fgnjc92&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fmz5bk9&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F2bf3na&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F5q9web&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fc42jzn&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Famjqve&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fwxwuea&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fumefbe&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fkataf2&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fcsbh22&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fwyptgj&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F9uzuej&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fpdf465&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fbwpy8z&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fvvkaem&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fccbhyq&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fans65w&layout=W1t7ImlkIjoiZnBtNDEiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLnB1Ymxpc2hlcktleS5uYW1lIiwidCI6InB1Ymxpc2hpbmdPcmcifV1d"></span>
       description: "Données validées pour la Suisse"
       background:  /assets/images/placeholders/closeup.png
-      imageLicense: "Données validées pour la Suisse"
-      href: "/occurrence/search"
+      imageLicense: "GBIF Placeholder"
+      href: "/occurrence/search?publishingOrg=64ee55c9-570a-42af-b7da-3f13c6b4e5a9&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7&gadmGid=CHE&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fnmhuth&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fynegtz&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fsbszsz&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fvtpycn&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fgnjc92&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fmz5bk9&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F2bf3na&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F5q9web&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fc42jzn&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Famjqve&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fwxwuea&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fumefbe&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fkataf2&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fcsbh22&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fwyptgj&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2F9uzuej&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fpdf465&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fbwpy8z&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fvvkaem&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fccbhyq&datasetName=https%3A%2F%2Fdoi.org%2F10.15468%2Fans65w"
 
 split1:
   reverse: false
