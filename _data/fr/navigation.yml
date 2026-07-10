@@ -3,9 +3,9 @@
 - text: Données
   menu:
     - text: Observations
-      href: /occurrence/search?basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
+      href: /occurrence/search?publishingOrg=64ee55c9-570a-42af-b7da-3f13c6b4e5a9&basisOfRecord=OBSERVATION&basisOfRecord=MACHINE_OBSERVATION&basisOfRecord=HUMAN_OBSERVATION
     - text: Spécimens
-      href: /occurrence/search?basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
+      href: /occurrence/search?publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7&basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN&basisOfRecord=LIVING_SPECIMEN
     - text: eDNA
       href: /occurrence/search?basisOfRecord=MATERIAL_SAMPLE
 - text: Actualités
