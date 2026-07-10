@@ -15,7 +15,7 @@ cta:
 composition:
   - type: heroImage
   - type: stats
-    
+    data: fr.home.stats
   - type: pageMarkdown
 ---
 
