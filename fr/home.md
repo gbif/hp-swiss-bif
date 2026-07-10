@@ -9,6 +9,8 @@ overlayColor: "transparent"
 permalink: /
 composition:
   - type: heroImage
+  - type: blank
+    data: fr.home.blank
   - type: stats
     data: fr.home.stats
   - type: pageMarkdown
