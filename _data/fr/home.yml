@@ -6,7 +6,7 @@ blank:
         position: relative;
         margin: 0;
         min-height: 700px;
-        background-image: url('{{ site.data.images.acalypha_gillespieae.src }}');
+        background-image: url('{{ site.data.images.home.src }}');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -81,7 +81,7 @@ blank:
       </div>
       <div class="image-credit">
         <span class="credit-icon">i</span>
-        <span class="credit-text">{{ site.data.images.acalypha_gillespieae.caption }}</span>
+        <span class="credit-text">{{ site.data.images.home.caption }}</span>
       </div>
     </div>
 
