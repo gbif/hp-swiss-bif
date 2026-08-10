@@ -12,20 +12,24 @@
 home:
   src: /assets/images/Home2.svg
   caption: |
-    Sofia Wyler, 2026
+    Sofia Wyler (2026)
+
 about:
   src: /assets/images/About.svg
   caption: |
-    Sofia Wyler, 2026
+    Sofia Wyler (2026)
+
 enregistrees:
   src: /assets/images/Enregistrees.svg
   caption: |
-    Sofia Wyler, 2026
+    Sofia Wyler (2026)
+
 publiees:
   src: /assets/images/Publiees.svg
   caption: |
-    Sofia Wyler, 2026
+    Sofia Wyler (2026)
+
 validees:
   src: /assets/images/Validees.svg
   caption: |
-    Sofia Wyler, 2026
+    Sofia Wyler (2026)
