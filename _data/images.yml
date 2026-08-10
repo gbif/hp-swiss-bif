@@ -10,23 +10,23 @@
 # background:  /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
 # imageLicense: [Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)
 home:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  src: /assets/images/Home.svg
   caption: |
     Sofia Wyler, 2026
 about:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  src: /assets/images/About.svg
   caption: |
     Sofia Wyler, 2026
 enregistrees:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  src: /assets/images/Enregistrees.svg
   caption: |
     Sofia Wyler, 2026
 publiees:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  src: /assets/images/Publiees.svg
   caption: |
     Sofia Wyler, 2026
 validees:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+  src: /assets/images/Validees.svg
   caption: |
     Sofia Wyler, 2026
 
