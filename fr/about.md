@@ -2,9 +2,8 @@
 lang-ref: about
 title: À propos
 description: Nœud Suisse de GBIF
-background: /assets/images/placeholders/moss.jpg
-imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+background:  "{{ site.data.images.about.src }}"
+imageLicense: "{{ site.data.images.about.caption }}"
 height: 70vh
 permalink: /about
 ---
