@@ -1,8 +1,8 @@
 ---
 lang-ref: home
 layout: home
-background:  "{{ site.data.images.acalypha_gillespieae.src }}"
-imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
+background:  "{{ site.data.images.home.src }}"
+imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
 parallax: false
 overlayColor: "transparent"
