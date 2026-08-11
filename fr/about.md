@@ -10,7 +10,7 @@ permalink: /about
 
 {% include lightbox2_zoom.html %}
 
-# Communiqué de la Confédération Suisse (6 juillet 2016)
+# Communiqué de la Confédération Suisse <br> (6 juillet 2016)
 
 (…) Les données et les informations relatives à la biodiversité doivent être accessibles et partagées. Ce principe est à l’origine de la création en 1996 d’une banque de données internationale dénommée Global Biodiversity Information Facility (GBIF). Le Conseil fédéral a décidé aujourd’hui que la Suisse deviendrait membre à part entière du GBIF.
 
