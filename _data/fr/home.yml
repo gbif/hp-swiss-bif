@@ -22,14 +22,13 @@ blank:
         box-sizing: border-box;
         padding: 40px;
         text-align: left;
-        background: rgba(0, 0, 0, 0.45);
+        background: rgba(0, 0, 0, 0.25);
       }
       .hero-swiss-node h1 {
         font-family: Cambria, Georgia, serif;
         margin: 0;
         font-size: 40px;
         font-weight: 200;
-        text-transform: uppercase;
         line-height: 1.1;
       }
       .hero-swiss-node p {
