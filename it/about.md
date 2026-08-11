@@ -5,7 +5,7 @@ description: Nœud Suisse de GBIF
 background:  "{{ site.data.images.about.src }}"
 imageLicense: "{{ site.data.images.about.caption }}"
 height: 70vh
-permalink: /about
+permalink: /it/about
 ---
 
 # Communiqué de la Confédération Suisse (6 juillet 2016)
