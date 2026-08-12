@@ -1,7 +1,7 @@
 ---
 klass: "newspost"
 title:  "SwissCollNet Conference 2026"
-date:   2026-09-01
+date:   2026-08-12
 categories: [Annonces, Workshop, Réseau]
 lang-ref: fr
 background: https://portal-cdn.scnat.ch/asset/7ea195ef-1118-536f-b7f0-459d870bc7e3/SCN_AC25_Posters_C.JPG?b=0f40499f-02c9-54dd-b127-4d8c2af85444&v=18d56fa9-477d-5458-b1bb-fe49fe66c5a5_0&s=KljhMK_SRloMMBCRdTkNrXC1fRs8Bnnd_O7Ztv-QOgl5m8qph9BqwqueBpPUZhwMejRB1tckVb3o_sopqP6bZ5A49x1ShQEHd59PUS8o4wa-76bnIAy_Xs56cyHG7yAuXZbtbDyIHLyE4NDo3B6wyO2uzbbjI39QtxG12gVk6lk&t=2f78dd92-7a22-4f43-a0bf-8326ef689cea&sc=2
