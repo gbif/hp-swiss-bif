@@ -1,0 +1,19 @@
+---
+klass: "newspost"
+title:  "TDWG Annual Conference 2026"
+date:   2026-08-12
+categories: [Annonces, International]
+lang-ref: fr
+background: /assets/images/posts/2026-08-13-TDWG.png
+preTitle: 12 août 2026
+cta:
+- text: Official webpage
+  href: https://www.tdwg.org/conferences/2026/
+---
+A hybrid conference in Oslo, Norway, 21-25 September
+
+This year’s conference theme is:
+
+**Research and Robot-ready Biodiversity Data Standards**
+
+[Programme 2026](https://www.tdwg.org/conferences/2026/program/schedule/){: .button .is-primary target="_blank"}
