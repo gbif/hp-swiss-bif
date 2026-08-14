@@ -3,13 +3,6 @@ var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = "CH"
 
-if (primaryColor) {
-  var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-    primary: primaryColor,
-    borderRadius: isSquared? 0 : 3
-  }});
-}
-
 var siteConfig = {
   "version": 3,
   "pages": [
@@ -26,7 +19,8 @@ var siteConfig = {
     "borderRadius": isSquared,
     // Palette verte 5 classes (ColorBrewer "Greens"), mêmes paliers de contraste
     // que la palette bleue du fichier v3 (claire -> foncée)
-    "mapDensityColors": ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"]
+    "mapDensityColors": ["#edf8e9", "#bae4b3", "#74c476", "#31a354", "#006d2c"],
+    "fontFamily": "Cambria, Georgia, serif"
   },
   "apiKeys": {
     "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow"
