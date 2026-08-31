@@ -2,8 +2,8 @@
 lang-ref: about
 title: À propos
 description: GBIF Suisse
-background	{{ site.data.images.about.src }}
-imageLicense	{{ site.data.images.about.caption }}
+background:	"{{ site.data.images.about.src }}"
+imageLicense:	"{{ site.data.images.about.caption }}"
 height: 70vh
 overlayColor: transparent
 permalink: /about
