@@ -2,8 +2,8 @@
 lang-ref: about
 title: À propos
 description: GBIF Suisse
-background:  "{{ site.data.images.about.src }}"
-imageLicense: "{{ site.data.images.about.caption }}"
+background:  assets/images/About.jpg
+imageLicense: "Sofia Wyler (2026)"
 height: 70vh
 overlayColor: transparent
 permalink: /about
