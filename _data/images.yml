@@ -33,3 +33,8 @@ validees:
   src: /assets/images/Validees.svg
   caption: |
     Sofia Wyler (2026)
+
+test:
+  src: /assets/images/Validees.svg
+  caption: |
+    Anne Morel
