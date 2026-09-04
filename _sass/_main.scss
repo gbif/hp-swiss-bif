@@ -3,6 +3,10 @@ $family-primary: "Cambria, Georgia, serif";
 
 // You can add additional styling here
 
+.statistic {
+  overflow: visible; // corrige le clipping du tooltip par le thème
+}
+
 .feature-description {
   position: relative;
   cursor: help;
