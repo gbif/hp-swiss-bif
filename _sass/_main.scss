@@ -45,7 +45,6 @@ $family-primary: "Cambria, Georgia, serif";
   }
 }
 
-// Textes spécifiques à chaque statistique, dans l'ordre d'apparition
 .statistic:nth-child(1) .feature-description::after {
   content: "Ces données sont mises à jour quotidiennement depuis les portails cantonaux.";
 }
