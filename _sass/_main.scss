@@ -18,9 +18,10 @@ $family-primary: "Cambria, Georgia, serif";
   &::after {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: 100%;
-    left: 0;
-    margin-bottom: 8px;
+    top: 100%;              // en dessous au lieu de bottom: 100% (au-dessus)
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8px;         // remplace margin-bottom: 8px
 
     background: rgba(0, 0, 0, 0.85);
     color: #fff;
@@ -46,13 +47,13 @@ $family-primary: "Cambria, Georgia, serif";
 }
 
 .statistic:nth-child(1) .feature-description::after {
-  content: "Ces données sont mises à jour quotidiennement depuis les portails cantonaux.";
+  content: "Observations et spécimens présents sur le territoire suisse.";
 }
 .statistic:nth-child(2) .feature-description::after {
-  content: "Seules les données publiées via GBIF Suisse sont comptées ici.";
+  content: "Observations et spécimens mis à disposition sur GBIF par des institutions et organisations suisses.";
 }
 .statistic:nth-child(3) .feature-description::after {
-  content: "Jeu de données validé et utilisé comme référence nationale.";
+  content: "Observations et spécimens vérifiés par les experts de la biodiversité suisse.";
 }
 
 @import "_example";
