@@ -46,14 +46,14 @@ $family-primary: "Cambria, Georgia, serif";
   }
 }
 
-.statistic:nth-child(1) .feature-description::after {
-  content: "Observations et spécimens présents sur le territoire suisse.";
+.statistic:nth-child(1) .feature-description::after {  // Données collectées en Suisse
+  content: "Données d'observations et de récoltes situées en Suisse";
 }
-.statistic:nth-child(2) .feature-description::after {
-  content: "Observations et spécimens mis à disposition sur GBIF par des institutions et organisations suisses.";
+.statistic:nth-child(2) .feature-description::after { // Données publiées par la Suisse
+  content: "Données situées en Suisse publiées par des acteurs suisses.";
 }
-.statistic:nth-child(3) .feature-description::after {
-  content: "Observations et spécimens vérifiés par les experts de la biodiversité suisse.";
+.statistic:nth-child(3) .feature-description::after { // Données de référence pour la Suisse
+  content: "Données utilisées pour le reporting sur la biodiversité en Suisse.";
 }
 
 @import "_example";
