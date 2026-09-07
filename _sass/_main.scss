@@ -23,7 +23,7 @@ $family-primary: "Cambria, Georgia, serif";
     transform: translateX(-50%);
     margin-top: 8px;         // remplace margin-bottom: 8px
 
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(84, 133, 90, 0.85);
     color: #fff;
     padding: 8px 12px;
     border-radius: 6px;
@@ -37,7 +37,7 @@ $family-primary: "Cambria, Georgia, serif";
     opacity: 0;
     visibility: hidden;
     transition: opacity 150ms ease-in-out;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 6px rgba(84, 133, 90, 0.2);
   }
 
   &:hover::after {
