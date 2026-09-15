@@ -1,34 +1,22 @@
 ---
-lang-ref: home
+lang-ref: en
 layout: home
-title: Noeud Suisse de GBIF
-background:  "{{ site.data.images.acalypha_gillespieae.src }}"
-imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
+background:  "{{ site.data.images.home.src }}"
+imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
-parallax: true
-permalink: /en/
-cta:
-  - text: Occurrences
-    href: /en/occurrence/search
-    isPrimary: true
-  - text: About
-    href: /en/about
+parallax: false
+overlayColor: "transparent"
+permalink: /
 composition:
-  - type: heroImage
-  - type: split
-    data: examples.herbariumImageExample
-  - type: features
-    data: examples.couldBeAnyName
+  - type: blank
+    data: en.home.blank
+  - type: stats
+    data: en.home.stats
+  - type: pageMarkdown
 ---
 
-Edit `/home.md` to change the text.
+Under the auspices of the Federal Office for the Environment, GBIF Switzerland fulfils the Swiss Federal Council’s commitment to share biodiversity data with the global initiative.
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+The portal brings together national biodiversity data and represents the network of partners who contribute to the mobilisation and re-use of relevant data to support conservation actions and enhance knowledge of biodiversity in Switzerland.
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+The partner network comprises organisations actively involved in the exchange of primary biodiversity data and brings together Switzerland’s national biodiversity data centres, museums, scientific collections and research contributions. Network participants work within a shared ethical framework and a coordinated data flow that facilitates access to multidimensional and consistent data.
