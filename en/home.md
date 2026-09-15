@@ -6,7 +6,7 @@ imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
 parallax: false
 overlayColor: "transparent"
-permalink: /
+permalink: en/
 composition:
   - type: blank
     data: en.home.blank
