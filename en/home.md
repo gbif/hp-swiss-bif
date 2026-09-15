@@ -1,5 +1,5 @@
 ---
-lang-ref: en
+lang-ref: home
 layout: home
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
