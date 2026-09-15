@@ -57,3 +57,11 @@ $family-primary: "Cambria, Georgia, serif";
 }
 
 @import "_example";
+
+
+.navbar-brand img, 
+.site-header .logo img {
+  height: 40px !important;    /* Increase from 28px to your preferred size */
+  max-height: 40px !important; 
+  width: auto;                /* Keeps aspect ratio intact */
+};
