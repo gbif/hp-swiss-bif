@@ -4,20 +4,19 @@
 # Columns (the more you add, the narrower they will be)
 columns:
   - name: Partenaires
-    links:
-    - text: Office fédéral de l'environnement
-      href: https://www.bafu.admin.ch/fr
-    - text: Centre suisse d'informations sur les espèces InfoSpecies
-      href: https://www.infospecies.ch/fr/
+    description: |
+      [<img src="assets/images/logos/infospecies_logoWeb2.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://www.infospecies.ch/fr/){:target="_blank"}
+  - description: |
+      [Office fédéral de l'environnement](https://www.bafu.admin.ch/fr){:target="_blank"}
 
   - name: Code
     description: | # Can be Markdown See `_data/footer.yml` to customize the footer.
-      This project is open source.
+      Ce projet est open source
   
   - name: Contact
     description: | # Can be Markdown
-      GBIF Swiss Node / info fauna
-    connectIcons: false
+     * GBIF Switzerland / info fauna
+     * [E-mail](mailto:contact@gbif.ch)
 
   # EXAMPLE
   #- name: Group name
